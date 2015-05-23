@@ -420,7 +420,8 @@
   #define TEMP_1_PIN         15   // ANALOG NUMBERING
   #define TEMP_2_PIN         -1   // ANALOG NUMBERING
   #define HEATER_BED_PIN     9    // BED
-  #define TEMP_BED_PIN       14   // ANALOG NUMBERING
+//  Pin defect: switched from pin 14 to unused pin 10
+  #define TEMP_BED_PIN       10   // ANALOG NUMBERING
 
   #ifdef ULTRA_LCD
 
